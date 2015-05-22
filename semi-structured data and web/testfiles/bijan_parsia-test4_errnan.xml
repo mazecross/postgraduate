@@ -1,0 +1,15 @@
+<!DOCTYPE expression PUBLIC "calc1" "http://www.cs.man.ac.uk/~sattler/teaching/calc1.dtd">
+<!-- This is an incorrect input, although valid wrt calc1.dtd and
+calc1.dtd is associated with this document.-->
+<expression>
+    <plus>
+        <times>
+            <int value="7"/>
+            <minus>
+                <int value="four"/>
+                <int value="24"/>
+            </minus>
+        </times>
+        <int value="7"/>
+    </plus>
+</expression>

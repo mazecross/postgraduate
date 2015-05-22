@@ -1,0 +1,14 @@
+<!DOCTYPE expression PUBLIC "calc1" "http://www.cs.man.ac.uk/~sattler/teaching/calc1.dtd">
+<!--(3*(7*2))+5-->
+<expression>
+    <plus>
+        <times>
+            <int value="3"/>
+            <times>
+                <int value="7"/>
+                <int value="2"/>
+            </times>
+        </times>
+		<int value="5"/>
+    </plus>
+</expression>

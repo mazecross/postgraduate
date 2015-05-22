@@ -1,0 +1,9 @@
+<!DOCTYPE expression SYSTEM "calc2.dtd">
+<expression>
+    <!-- This expression evaluates to 9.
+         It was one of the examples.-->
+    <plus>
+        <int value="4"/>
+        <int value="5"/>
+    </plus>
+</expression>

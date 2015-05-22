@@ -1,0 +1,16 @@
+<!DOCTYPE expression SYSTEM "calc2.dtd">
+<expression>
+    <!-- This expression evaluates to 6.5.
+         It was one of the examples.
+         10/(4-24)+7-->
+    <plus>
+        <dividedBy>
+            <int value="10"/>
+            <minus>
+                <int value="4"/>
+                <int value="24"/>
+            </minus>
+        </dividedBy>
+        <int value="7"/>
+    </plus>
+</expression>

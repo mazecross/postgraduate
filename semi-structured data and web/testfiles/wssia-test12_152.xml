@@ -1,0 +1,42 @@
+<!DOCTYPE expression PUBLIC "calc1" "http://www.cs.man.ac.uk/~sattler/teaching/calc1.dtd">
+<!--(3-(7-2))+(10+3+(2*((5+3)-1)*9))+1+2+3+4+4-->
+<expression>
+    <plus>
+		<int value="1"/>
+		<!--<int value="2"/>-->
+		<minus>
+            <int value="3"/>
+            <int value="1"/>
+        </minus>
+		<int value="3"/>
+        <minus>
+            <int value="3"/>
+            <minus>
+                <int value="7"/>
+                <int value="2"/>
+            </minus>
+        </minus>
+		<int value="4"/>
+		<plus>
+			<int value="10"/>
+			<int value="3"/>
+			<times>
+				<int value="2"/>
+				<minus>
+					<plus>
+						<int value="5"/>
+						<!--<int value="3"/>-->
+						<minus>
+							<int value="6"/>
+							<int value="3"/>
+						</minus>
+					</plus>
+					<int value="1"/>
+				</minus>
+				<int value="9"/>
+			</times>
+		</plus>
+		<int value="4"/>
+		<int value="1"/>
+    </plus>
+</expression>

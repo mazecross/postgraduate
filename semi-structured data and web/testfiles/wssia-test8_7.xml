@@ -1,0 +1,17 @@
+<!DOCTYPE expression PUBLIC "calc1" "http://www.cs.man.ac.uk/~sattler/teaching/calc1.dtd">
+<!--5+((7-2)-(5-2))-->
+<expression>
+    <plus>
+		<int value="5"/>
+        <minus>
+            <minus>
+                <int value="7"/>
+                <int value="2"/>
+            </minus>
+			<minus>
+                <int value="5"/>
+                <int value="2"/>
+            </minus>
+        </minus>
+    </plus>
+</expression>
